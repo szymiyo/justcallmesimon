@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #cccccc;
+}
+
+/* NAVBAR */
+
+
+li, a {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+.navbar a{
+	float: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	padding-top: 30px;
+}
+
+	
+header {
+	justify-content: space-between;
+	align-items: center;
+	position: realtive;
+}
+
+.nav__links {
+	list-style: none;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:20px;
+    text-align:center;
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 0 auto;
+}
+
+.nav__links li a {
+	transmition al 0.3s ease 0s;
+	padding: 20px;
+	color: white;
+}
+
+.nav__links li a:hover{
+	color: #DD2D3F;
+}
+
+
+/* MAIN SITE  */
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: #DD2D3F;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	width: 20em;
+    text-align: center;
+}
+
+
+img {
+	width: 20%;
+	border-radius: 100%;
+	border: 10px solid #DD2D3F;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+}
+
+
+h2 {
+	margin-top: 7.5em;
+	padding-top: 3em;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: white;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 50em;
+	background-color: white;
+}
+
+#About {
+	background-color: white;
+	padding-bottom: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  display: inline-block;
+  background-color: #DD2D3F;
+}
+footer .copyright {
+	background-color: #DD2D3F;
+}
+
+footer p {
+      color: white;
+      font-size: 0.7em;
+      line-height: 70px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+	  background-color: #DD2D3F;
+	  text-align: center;
+}
+  
+  #footer {
+	  background-color: #DD2D3F;
+  }
+  
